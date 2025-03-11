@@ -1,0 +1,83 @@
+body {
+    background-image:url("photo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* ثبات الخلفية عند التمرير */
+
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: inline-block;
+    margin-left: 0px;
+    text-decoration: none; /* تصحيح الخاصية */
+}
+
+h1 { /* العنصر HTML يُكتب بدون نقطة */
+    font-size: 35px;
+    color:#9DCBB4;
+}
+
+.a{ /* غيرت الاسم لتجنب التضارب مع وسم <a> */
+    color: #CCFFE6;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px; /* تصحيح: استخدام `font-size` بدلًا من `font-style` */
+}
+
+.a:hover {
+    color: #ADC5D4;
+}
+.icon-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+span {
+    font-size: 1.1em;
+}
+.links-frame {
+    border: 0px; /*لون الإطار */
+    border-radius: 15px;             /* استدارة الحواف */
+    padding: 20px;                   /* مسافة داخلية */
+    margin: 20px auto;               /* توسيط الإطار */
+    max-width: auto;                /* عرض الإطار */
+    background:#2D3833; /* خلفية شفافة */
+}
+
+.links-frame a {
+    display: flex;                   /* ترتيب الأفقي */
+    align-items: center;             /* محاذاة رأسية */
+    gap: 15px;                       /* مسافة بين الأيقونة والنص */
+    margin: 10px 0;                 /* مسافة بين الروابط */
+    padding: 10px;                  /* مسافة داخلية للروابط */
+    border-radius: 20px;             /* استدارة بسيطة للروابط */
+    transition: all 0.5s ease ;
+    transform-origin: center ;
+}
+
+.links-frame a:hover {
+    background:#3B3B3B; /* خلفية عند التحويم */
+    transform:scale(1.08);
+    box-shadow: 0 5px 20px #6C6C6C; /* ظل أصفر */
+}
+.gmail{
+  text-decoration: none ;
+color:#B5D8B3;
+font-size: 1.2em;
+font-weight: bold ;
+
+}
